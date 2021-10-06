@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat table 04 - Colspan & Rowspan</title>
+    <style type="text/css">
+    table,th,td {
+        border: 1px solid #66DC01;
+        border-collapse: collapse;
+    }
+    table {
+        width: 50%;
+    }
+    th,td {
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <h1>Daftar Hadir Siswa</h1>
+    <table>
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">NIS</th>
+            <th rowspan="2">Nama</th>
+            <th colspan="3">Absensi</th>
+        </tr>
+        <tr>
+            <td>Hadir</td>
+            <td>Sakit</td>
+            <td>Izin</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>12022002112</td>
+            <td>Jainudin</td>
+            <td>29</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>102120191022</td>
+            <td>Anton</td>
+            <td>24</td>
+            <td>5</td>
+            <td>0</td>
+        </tr>
+    </table>
+</body>
+</html>

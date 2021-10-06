@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+h5{
+    color: whitesmoke;
+}
+
+nav{
+    display: flex;
+    border: 1px solid #0b1e2e;
+    background-color: #08111a;
+    justify-content: space-around;
+    padding: 20px 0px;
+    height: 30px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 25%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 0.9em;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+
+nav ul li a:hover{
+    color: whitesmoke;
+    background-color: #0A1F67;
+    transition: 1s;
+}
+
+
+header{
+    padding-top: 20px;
+    background-color: #0b1e2e;
+    height: auto;
+}
+
+.pala {
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1{
+    font-size: 1000%;
+    padding-top: 5%;
+}
+
+h2{
+    font-size: 400%;
+}
+
+.pala p {
+    padding-bottom: 25%;
+}
+
+#classwork{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 180%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+footer{
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #08111a;
+    color: whitesmoke;
+    padding: 2% 1%;
+}
+
+#about {
+    color: whitesmoke;
+    padding-bottom: 35%;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.pala1{
+    padding-bottom: 2%;
+    font-size: 150%;
+}
+
+
+
+
+
+
+/* responsiv breakpoint  */
+
+/* tablet */
+
+@media screen and (max-width: 768px){
+    nav ul{
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 500%;
+    }
+
+/* mobile */
+@media screen and (max-width:576px ){
+    nav ul{
+        display: none;
+    }
+
+    h1{
+        font-size: 500%;
+    }
+}
