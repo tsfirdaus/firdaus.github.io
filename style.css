@@ -18,7 +18,6 @@ h5{
 
 nav{
     display: flex;
-    border: 1px solid #0b1e2e;
     background-color: #08111a;
     justify-content: space-around;
     padding: 20px 0px;
@@ -91,7 +90,7 @@ h2{
     width: 100%;
     font-size: 160%;
     padding-bottom: 5%;
-    padding-top: 20%;
+    padding-top: 5%;
     text-align: center;
 }
 
@@ -143,7 +142,7 @@ footer{
     nav ul{
         display: none;
     }
-    
+
     h1{
         font-size: 400%;
     }
