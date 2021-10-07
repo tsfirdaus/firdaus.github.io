@@ -57,6 +57,11 @@ header{
     height: auto;
 }
 
+table tr td a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 .pala {
     text-align: center;
     color: whitesmoke;
